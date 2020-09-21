@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div id="table">
+    <table class="layui-table">
+        <colgroup>
+            <col width="150">
+            <col width="200">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>员工编号</th>
+            <th>员工姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>电话</th>
+            <th>部门名称</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>{{userId}}</td>
+            <td>{{userName}}</td>
+            <td>{{sex}}</td>
+            <td>{{age}}</td>
+            <td>{{phone}}</td>
+            <td>{{deptId}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
